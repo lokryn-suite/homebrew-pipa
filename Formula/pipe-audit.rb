@@ -1,25 +1,25 @@
 class PipeAudit < Formula
   desc "Command-line interface for the pipa audit engine"
   homepage "https://github.com/lokryn-suite/pipe-audit-core-cli"
-  version "0.1.10"
+  version "0.1.12"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/lokryn-suite/pipe-audit-core-cli/releases/download/v0.1.10/pipe-audit-aarch64-apple-darwin.tar.xz"
-      sha256 "140d3898c0be3c1b408436fc0d263254d860ea73bba2630b8f484bba502d6981"
+      url "https://github.com/lokryn-suite/pipe-audit-core-cli/releases/download/v0.1.12/pipe-audit-aarch64-apple-darwin.tar.xz"
+      sha256 "4129738dc8732eeb2258083d2e37bce0dc49eea0d8d20f045ab65c9a02dcd4fc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lokryn-suite/pipe-audit-core-cli/releases/download/v0.1.10/pipe-audit-x86_64-apple-darwin.tar.xz"
-      sha256 "a0eaeab2ffbf12b9f34f2d2c95528fb12452d59052c6467ac95be3b36184e66b"
+      url "https://github.com/lokryn-suite/pipe-audit-core-cli/releases/download/v0.1.12/pipe-audit-x86_64-apple-darwin.tar.xz"
+      sha256 "00157a05347ad61ff7167fd45c6ad69901f3545c4fa992bb933f2ea6ecae16ee"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/lokryn-suite/pipe-audit-core-cli/releases/download/v0.1.10/pipe-audit-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1466ade03cb9cbd16cd373105685232bcbf90086f1c653d26f7692d828cfb1f0"
+      url "https://github.com/lokryn-suite/pipe-audit-core-cli/releases/download/v0.1.12/pipe-audit-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5cf8e4568e4f7b9b85bf0b1def5f11b83d7384f20e0da7df38d184db2978f732"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lokryn-suite/pipe-audit-core-cli/releases/download/v0.1.10/pipe-audit-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "66186687323112106018d437ac4198cb7d5af3b2cf3bd87d98fb40fa54cac6ca"
+      url "https://github.com/lokryn-suite/pipe-audit-core-cli/releases/download/v0.1.12/pipe-audit-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "318aecbfe9323d66c5510aa1341d6692bca5070a36307e7f3b49fa80e8c6bcf3"
     end
   end
   license "GPL-3.0-or-later"
